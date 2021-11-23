@@ -1,4 +1,9 @@
-print("Enter Your Name:")
-name = input()
-print(name)
+import os
+
+print("Enter Your File Link:")
+link = input()
+os.system(wget link)
+
+
+
 
